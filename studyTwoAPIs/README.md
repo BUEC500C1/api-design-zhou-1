@@ -13,3 +13,6 @@ https://api.weather.gov/gridpoints/TOP/31,80
 
 <strong>OpenWeatherMAP API</strong>        
 https://openweathermap.org/api    
+Sign up for API key.       
+Current weather data API. https://openweathermap.org/current       
+5 day / 3 hour forecast API. https://openweathermap.org/forecast5       
