@@ -1,7 +1,7 @@
 <strong>Weather.gov API</strong>        
 https://www.weather.gov/documentation/services-web-api     
 The API uses the request headers to modify the response returned: Request new features, Format the response...     
-No API key buy a User Agent string is required to identify application. (unique for security)     
+No API key, but a User Agent string is required to identify application. (unique for security)     
 API location: https://api.weather.gov/    
 Endpoints typically have a GeoJSON default format, given the inclusion of geometry data.     
 GeoJSON: application/geo+json      
