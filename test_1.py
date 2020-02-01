@@ -6,4 +6,4 @@ def test():
   
   for a in cityNames:
 	#assert weatherAPI.cityName("London")
-	weatherAPI.searchByCityName(a)
+	weatherAPI.searchname(a)
