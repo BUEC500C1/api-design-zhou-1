@@ -4,6 +4,8 @@ from pprint import pprint
 def searchname(cName):
   city = cName
   
+  file1 = open("results/results.txt","w") 
+  
   # Not use &units=metric, 404 error
   url = 'https://samples.openweathermap.org/data/2.5/weather?q={}&appid=b6907d289e10d714a6e88b30761fae22'.format(city)
 
@@ -18,4 +20,7 @@ def searchname(cName):
   description = data['weather'][0]['description']
 
   # pprint(data)
-  print("Weather in {} is: ".format(city) )
+  # print("Weather in {} is: ".format(city) )
+  file1.write("temp there is {} \n".format(temp) )
+  
+  file1.close()
