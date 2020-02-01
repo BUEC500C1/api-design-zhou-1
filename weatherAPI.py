@@ -65,7 +65,10 @@ def searchdimension(lati, longi):
   
   file1.close()
 
-  
+  # print out result
+  f = open("results/results.txt","r")
+  print f.read()
+  f.close()
   
   
   
