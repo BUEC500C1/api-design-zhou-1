@@ -1,4 +1,5 @@
 import requests
+from pprint import pprint
 
 def cityName(cName):
   city = cName
@@ -8,4 +9,4 @@ def cityName(cName):
   res = requests.get(url) 
   data = res.json()
 
-  print(data)
+  pprint(data)
