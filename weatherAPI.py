@@ -1,7 +1,7 @@
 import requests
 
 def cityName(cName):
-  city = input('Enter your city name: ')
+  city = cName
   
   url = 'https://samples.openweathermap.org/data/2.5/weather?q={}&appid=b6907d289e10d714a6e88b30761fae22&units=metric'.format(city)
 
