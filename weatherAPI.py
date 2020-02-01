@@ -41,7 +41,7 @@ def searchdimension(lati, longi):
   latitude = lati
   longitude = longi
   
-  file1 = open("results/results.txt","w") 
+  file1 = open("results/results.txt","a+") 
   
   # Not use &units=metric, 404 error
   url = 'https://samples.openweathermap.org/data/2.5/weather?lat={}&lon={}&appid=b6907d289e10d714a6e88b30761fae22'.format(latitude, longitude)
