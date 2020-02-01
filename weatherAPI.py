@@ -9,7 +9,7 @@ def searchname(cName):
   res = requests.get(url) 
   data = res.json()
   
-  temp = data['main']['temp']
+  temp = data["main"]['temp']
   temp_min = data['main']['temp_min']
   temp_max = data['main']['temp_max']
   pressure = data['main']['pressure']
