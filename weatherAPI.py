@@ -18,4 +18,4 @@ def searchname(cName):
   description = data['weather']['0']['description']
 
   # pprint(data)
-  print("Weather in {} is: ", city)
+  print("Weather in {} is: ".format(city) )
