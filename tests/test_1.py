@@ -1,5 +1,5 @@
 import pytest
-import ./weatherAPI
+import weatherAPI
 
 def test():
   cityNames = ["London", "Beijing", "New York", "Tokyo", "Hangzhou", "Boston", "Seattle"]
