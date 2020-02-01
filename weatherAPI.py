@@ -9,9 +9,7 @@ def searchname(cName):
   res = requests.get(url) 
   data = res.json()
   
-  
-  wind_speed = data['wind']['speed']
-  description = data['weather']['0']['description']
+  temp = data["main"]["temp"]
 
   # pprint(data)
   print("Weather in {} is: ".format(city) )
