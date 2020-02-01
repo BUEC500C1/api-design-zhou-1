@@ -21,7 +21,11 @@ def searchname(cName):
 
   # pprint(data)
   # print("Weather in {} is: ".format(city) )
-  file1.write("hello")
   file1.write("temp there is {} \n".format(temp) )
+  file1.write("Min temp there is {} \n".format(temp_min) )
+  file1.write("Max temp there is {} \n".format(temp_max) )
+  file1.write("Pressure there is {} \n".format(pressure) )
+  file1.write("Speed of wind there is {} \n".format(wind_speed) )
+  file1.write("Description of weather there is {} \n".format(description) )
   
   file1.close()
