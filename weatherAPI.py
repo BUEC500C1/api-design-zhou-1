@@ -21,6 +21,7 @@ def searchname(cName):
 
   # pprint(data)
   # print("Weather in {} is: ".format(city) )
+  file1.write("hello")
   file1.write("temp there is {} \n".format(temp) )
   
   file1.close()
