@@ -33,8 +33,18 @@ def searchname(cName):
 
   
 # def for get lati and longi from airport's name
-# def getdeatiledlocation(aName):
-
+'''
+def getdeatiledlocation(aName):
+  file2 = "csvFiles/airport-codes_csv.csv"
+  
+  with open(file2) as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if {row[2]} == aName:
+          lati = {row[11]}
+          
+'''  
 
 # search based on lati and longi
 def searchdimension(lati, longi):
