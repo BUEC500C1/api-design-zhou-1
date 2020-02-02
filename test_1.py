@@ -1,3 +1,6 @@
+# test case for extracting information from airport names, to get altitude and logitude
+# only test for getdeatiledlocation function, it will call searchdimension function
+
 import pytest
 import weatherAPI
 
