@@ -46,8 +46,8 @@ def getdeatiledlocation(aName):
       if row[3] == airportName:
         lati = row[4]
         longi = row[5]
-        print(lati, longi)
-        # searchdimension(lati, longi)  
+        # print(lati, longi)
+        searchdimension(lati, longi)  
             
 
 # search based on lati and longi
