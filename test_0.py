@@ -1,3 +1,5 @@
+# test case for search weather information based on city names
+
 import pytest
 import weatherAPI
 
