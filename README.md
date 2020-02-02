@@ -9,4 +9,4 @@ Here, I created three functions in weatherAPI.py, one for searching weather info
 
 <hr>    
 
-
+Anyone interested in this project are encouraged to change the name in my two test python files to see the results.    
