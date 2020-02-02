@@ -2,8 +2,8 @@ import pytest
 import weatherAPI
 
 def test():
-  cityNames = ["London", "Beijing", "New York", "Tokyo", "Hangzhou", "Boston", "Seattle"]
+  aNames = ["Total Rf Heliport", "Los Angeles County Sheriff's Department Heliport", "Aviosuperficie di Fucecchio", "Darden Airport", "Watson Airport", "Sanya Phoenix International Airport", "Hot Springs Airport"]
   
-  for a in cityNames:
+  for air in aNames:
     #assert weatherAPI.cityName("London")
-    weatherAPI.searchname(a)
+    weatherAPI.getdeatiledlocation(air)
