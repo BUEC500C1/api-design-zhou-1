@@ -36,7 +36,7 @@ Initialize your desired airport place, you can put your desired airport(s) insid
 aNames = ["Total Rf Heliport", "Los Angeles County Sheriff's Department Heliport", "Aviosuperficie di Fucecchio", "Darden Airport", "Watson Airport", "Sanya Phoenix International Airport", "Hot Springs Airport"]
 ```
 
-# Get airport's information    
+# Get airport's selected weather information    
 Once you run my code, you will get below selected weather information for your desired airport.    
 ```
 temp = data['main']['temp']
@@ -48,3 +48,26 @@ description = data['weather'][0]['description']
 ```
 Results will be written in to "results/results.txt".    
 
+The return results will be like below format:   
+```
+{
+  main: {
+      temp: 285.514,
+      temp_min: 285.514,
+      temp_max: 285.514,
+      pressure: 1013.75,
+  },
+
+  wind: {
+    speed: 5.52,
+  },
+
+  weather: [
+    {
+      description: "clear sky",
+    }
+  ],
+
+}
+
+```
