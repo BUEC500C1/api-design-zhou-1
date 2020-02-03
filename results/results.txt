@@ -1,1 +1,19 @@
+{
+  main: {
+      temp: 285.514,
+      temp_min: 285.514,
+      temp_max: 285.514,
+      pressure: 1013.75,
+  },
 
+  wind: {
+    speed: 5.52,
+  },
+
+  weather: [
+    {
+      description: "clear sky",
+    }
+  ],
+
+}
