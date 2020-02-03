@@ -23,7 +23,7 @@ import my function / library to your code
 import weatherAPI   
 ```
 
-## register an API key of Open Weather     
+## Register an API key of Open Weather     
 Click this website https://openweathermap.org/ for more infomation.      
 Open my weatherAPI.py, use your API code to replace mine:    
 ```
