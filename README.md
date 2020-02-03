@@ -73,11 +73,16 @@ The return results will be like below format:
 ```
 
 ## Parameters of return results 
-<form>
-Name	Description	Unit
-temp	Temperature	Kelvin
+| Name       | Description           | Unit  |
+| ------------- |:-------------:| -----:|
+| temp      | Temperature | Kelvin |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+		
 temp_min	Minimum temperature at the moment.	Kelvin
 temp_max	Maximum temperature at the moment.	Kelvin
 pressure	Atmospheric pressure (on the sea level, if there is no sea_level or grnd_level data)	hPa
 speed	wind speed	meter/sec
-</form>
+
