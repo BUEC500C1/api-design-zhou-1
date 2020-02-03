@@ -27,7 +27,7 @@ import weatherAPI
 Click this website https://openweathermap.org/ for more infomation.      
 Open my weatherAPI.py, use your API code to replace mine:    
 ```
-url = 'https://samples.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(city).format(yourAPICode)   
+url = 'https://samples.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(city, yourAPICode)
 ```
 
 # Instructions   
