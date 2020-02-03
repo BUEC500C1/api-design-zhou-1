@@ -11,8 +11,40 @@ Here, I created three functions in weatherAPI.py, one for searching weather info
 
 Anyone interested in this project are encouraged to change the name in my two test python files to see the results.    
 
-<h1> Preparation </h1>   
+# Preparation
+## Download essential files    
 clone my repo:   
 ```
 git clone https://github.com/BUEC500C1/api-design-zhou-1
 ```
+
+import my function / library to your code    
+```
+import weatherAPI   
+```
+
+## register an API key of Open Weather     
+Click this website https://openweathermap.org/ for more infomation.      
+Open my weatherAPI.py, use your API code to replace mine:    
+```
+url = 'https://samples.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(city).format(yourAPICode)   
+```
+
+# Instructions   
+Initialize your desired airport place, you can put your desired airport(s) inside this list.       
+```
+aNames = ["Total Rf Heliport", "Los Angeles County Sheriff's Department Heliport", "Aviosuperficie di Fucecchio", "Darden Airport", "Watson Airport", "Sanya Phoenix International Airport", "Hot Springs Airport"]
+```
+
+# Get airport's information    
+Once you run my code, you will get below selected weather information for your desired airport.    
+```
+temp = data['main']['temp']
+temp_min = data['main']['temp_min']
+temp_max = data['main']['temp_max']
+pressure = data['main']['pressure']
+wind_speed = data['wind']['speed']
+description = data['weather'][0]['description']
+```
+Results will be written in to "results/results.txt".    
+
